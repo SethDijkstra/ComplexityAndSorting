@@ -1,8 +1,8 @@
 package shapes;
 
-public class Cylinder extends Shape {
+public class OctagonalPrism extends Shape {
 
-	protected Cylinder(double height) {
+	public OctagonalPrism(double height) {
 		super(height);
 		// TODO Auto-generated constructor stub
 	}

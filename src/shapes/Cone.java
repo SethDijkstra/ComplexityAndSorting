@@ -1,8 +1,8 @@
 package shapes;
 
-public class Cylinder extends Shape {
+public class Cone extends Shape {
 
-	protected Cylinder(double height) {
+	public Cone(double height) {
 		super(height);
 		// TODO Auto-generated constructor stub
 	}
