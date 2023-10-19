@@ -86,7 +86,7 @@ public class SortUtils {
         }
     }
 
-    // Quick Sort (placeholder for now, you can add the implementation)
+    // Quick Sort
     public static <T extends Comparable<T>> void quickSort(T[] arr, int low, int high) {
         if (low < high) {
             int pi = partition(arr, low, high);
