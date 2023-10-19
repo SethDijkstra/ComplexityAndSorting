@@ -1,22 +1,20 @@
 package shapes;
 
 public class Pyramid extends Shape {
-
-	public Pyramid(double height) {
+	private double edgeLength;
+	public Pyramid(double height, double edgeLength) {
 		super(height);
-		// TODO Auto-generated constructor stub
+		this.edgeLength = edgeLength;
 	}
 
 	@Override
 	public double volume() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (1/3) * baseArea() * height;
 	}
 
 	@Override
 	public double baseArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return edgeLength * edgeLength;
 	}
 
 }
